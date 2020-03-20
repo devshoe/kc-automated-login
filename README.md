@@ -24,6 +24,6 @@ For example:
 ```python
 myAccount = account.account() #KiteConnectObject
 myTicker = account.ticker() #KiteTickerObject (kws in docs)
-print(myAccount.orders()"))
+print(myAccount.orders())
 ```
 and it'll all work like usual.
