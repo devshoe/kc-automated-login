@@ -22,6 +22,7 @@ This will store all instruments in data/instruments.csv
 3. After this you can simply import account into your own projects.
 For example:
 ```python
+import account
 myAccount = account.account() #KiteConnectObject
 myTicker = account.ticker() #KiteTickerObject (kws in docs)
 print(myAccount.orders())
