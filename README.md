@@ -7,9 +7,13 @@ Zerodha Kite Connect automatic login, from start to finish by just running a scr
 # Usage
 
 1. (FIRST USE ONLY) Open data/credentials.json in a text editor and fill every field up inside quotes. Ignore "access_token" field.
+
 "user":Your login ID
+
 "pswd":Your password
+
 "twofa":Your 2 factor auth pin
+
 and your kiteconnect credentials
 
 2. Run account.py. It'll auto update your access-token from now every time you run it. 
