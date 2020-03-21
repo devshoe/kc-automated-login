@@ -18,12 +18,14 @@ and your kiteconnect credentials
 
 2. Run account.py. It'll auto update your access-token from now every time you run it. 
 ``` python
-login()
+import account
+account.login()
 ```
 If you want the instruments csv dump from "http://api.kite.trade/instruments", 
 
 ``` python
-login(getInstruments = True)
+import account
+account.login(getInstruments = True)
 ```
 This will store all instruments in data/instruments.csv
 
